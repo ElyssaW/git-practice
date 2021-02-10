@@ -6,6 +6,7 @@ import Jeff from './Jeff'
 import Elyssa from './Elyssa'
 import Woo from './Woo'
 import About from './About'
+import GrinchYoga from './GrinchYoga'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Elyssa />
       
       <Woo />
+      <GrinchYoga />
     </div>
   )
 }
