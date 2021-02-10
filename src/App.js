@@ -6,8 +6,10 @@ import Jeff from './Jeff'
 import Elyssa from './Elyssa'
 import Woo from './Woo'
 import About from './About'
+import { useState } from 'react';
 
 function App() {
+
   return (
     <div className="App">
       <MyName />
@@ -16,6 +18,11 @@ function App() {
       <Elyssa />
       
       <Woo />
+
+      <About name='Chassity' desc='I like to do fun things.' />
+      <About name='Jeff' desc='I like to code, workout, and play video games.' />
+      <About name='Jason' desc='I like playing videogame and reading' />
+      <About name='Elyssa' desc='I like playing videogame, cooking, and drawing' />
     </div>
   )
 }
