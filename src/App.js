@@ -4,7 +4,6 @@ import MyName from './MyName'
 import Chassity from './components/Chassity'
 import Jeff from './Jeff'
 import Elyssa from './Elyssa'
-import About from './About.js'
 
 function App() {
   return (
@@ -15,6 +14,9 @@ function App() {
       <Elyssa />
 
       <About name='Chassity' desc='I like to do fun things.' />
+      <About name='Jeff' desc='I like to code, workout, and play video games.' />
+      <About name='Jason' desc='I like playing videogame and reading' />
+      <About name='Elyssa' desc='I like playing videogame, cooking, and drawing' />
     </div>
   )
 }
