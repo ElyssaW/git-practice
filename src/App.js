@@ -1,29 +1,41 @@
 import logo from './logo.svg';
+import { BrowserRouter as Router, Route } from 'react-router-dom'
 import './App.css';
 import MyName from './MyName'
-import Chassity from './components/Chassity'
+import Chassity from './components/pages/Chassity'
 import Jeff from './Jeff'
 import Elyssa from './Elyssa'
 import Woo from './Woo'
 import About from './About'
 import { useState } from 'react';
 
+import Home from './components/pages/Home'
+import Header from './components/partials/Header'
+
 function App() {
 
   return (
-    <div className="App">
-      <MyName />
-      <Chassity />
-      <Jeff />
-      <Elyssa />
-      
-      <Woo />
+    <Router>
+      <div className="App">
+        <Header />
+        <Route exact path="/" component={Home} />
+        <Route path="/elyssa" component={Elyssa} />
+        <Route path="/jason" component={MyName} />
+        <Route path="/jeffrey" component={Jeff} />
+        <Route path="/chassity" component={Chassity} />
+        <MyName />
+        <Chassity />
+        <Jeff />
+        <Elyssa />
 
-      <About name='Chassity' desc='I like to do fun things.' />
-      <About name='Jeff' desc='I like to code, workout, and play video games.' />
-      <About name='Jason' desc='I like playing videogame and reading' />
-      <About name='Elyssa' desc='I like playing videogame, cooking, and drawing' />
-    </div>
+        <Woo />
+
+        <About name='Chassity' desc='I like to do fun things.' />
+        <About name='Jeff' desc='I like to code, workout, and play video games.' />
+        <About name='Jason' desc='I like playing videogame and reading' />
+        <About name='Elyssa' desc='I like playing videogame, cooking, and drawing' />
+      </div>
+    </Router>
   )
 }
 
