@@ -16,7 +16,10 @@ function App() {
       <Jeff />
       <Elyssa />
 
-      <About name='Elyssa' desc='I like to draw, cook, and play video games.' />
+      <About name='Chassity' desc='I like to do fun things.' />
+      <About name='Jeff' desc='I like to code, workout, and play video games.' />
+      <About name='Jason' desc='I like playing videogame and reading' />
+      <About name='Elyssa' desc='I like playing videogame, cooking, and drawing' />
     </div>
   )
 }
