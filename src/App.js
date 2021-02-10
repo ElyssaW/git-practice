@@ -7,6 +7,7 @@ import Jeff from './Jeff'
 import Elyssa from './Elyssa'
 import Woo from './Woo'
 import About from './About'
+import GrinchYoga from './GrinchYoga'
 import { useState } from 'react';
 
 import Home from './components/pages/Home'
@@ -36,6 +37,20 @@ function App() {
         <About name='Elyssa' desc='I like playing videogame, cooking, and drawing' />
       </div>
     </Router>
+    <div className="App">
+      <MyName />
+      <Chassity />
+      <Jeff />
+      <Elyssa />
+      
+      <Woo />
+      <GrinchYoga />
+
+      <About name='Chassity' desc='I like to do fun things.' />
+      <About name='Jeff' desc='I like to code, workout, and play video games.' />
+      <About name='Jason' desc='I like playing videogame and reading' />
+      <About name='Elyssa' desc='I like playing videogame, cooking, and drawing' />
+    </div>
   )
 }
 
