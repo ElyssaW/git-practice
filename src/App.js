@@ -4,7 +4,8 @@ import MyName from './MyName'
 import Chassity from './components/Chassity'
 import Jeff from './Jeff'
 import Elyssa from './Elyssa'
-import About from './About.js'
+import Woo from './Woo'
+import About from './About'
 import { useState } from 'react';
 
 function App() {
@@ -15,6 +16,8 @@ function App() {
       <Chassity />
       <Jeff />
       <Elyssa />
+      
+      <Woo />
 
       <About name='Chassity' desc='I like to do fun things.' />
       <About name='Jeff' desc='I like to code, workout, and play video games.' />
