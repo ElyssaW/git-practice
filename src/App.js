@@ -4,6 +4,8 @@ import MyName from './MyName'
 import Chassity from './components/Chassity'
 import Jeff from './Jeff'
 import Elyssa from './Elyssa'
+import Woo from './Woo'
+import About from './About'
 
 function App() {
   return (
@@ -12,7 +14,8 @@ function App() {
       <Chassity />
       <Jeff />
       <Elyssa />
-      <About name='Jason' desc='I like playing videogame and reading' />
+      
+      <Woo />
     </div>
   )
 }
