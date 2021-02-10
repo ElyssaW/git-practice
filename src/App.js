@@ -13,8 +13,6 @@ function App() {
       <Chassity />
       <Jeff />
       <Elyssa />
-
-      <About name='Chassity' desc='I like to do fun things.' />
     </div>
   )
 }
